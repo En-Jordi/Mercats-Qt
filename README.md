@@ -4,4 +4,6 @@ Status: Actualment abandonat per desenvolupar un basat en web *[Mercats ERP](htt
 
 ## Imatges idea original
 
+[[https://github.com/En-Jordi/Mercats-Qt/blob/master/img/principal.png|alt=Pantalla principal]]
 
+[[https://github.com/En-Jordi/Mercats-Qt/blob/master/img/tiquets.png|alt=Pantalla creació tiquets]]
