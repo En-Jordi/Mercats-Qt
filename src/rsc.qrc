@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/icones">
+        <file>rsc/cash.png</file>
+        <file>rsc/bank.png</file>
+        <file>rsc/wanted-reward.png</file>
+        <file>rsc/rolled-cloth.png</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>

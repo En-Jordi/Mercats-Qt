@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1200</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>&lt;Programa&gt;</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="rsc.qrc">
+    <normaloff>:/icones/rsc/cash.png</normaloff>:/icones/rsc/cash.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>30</y>
+      <width>891</width>
+      <height>631</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid red;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Operacions">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>150</y>
+      <width>231</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Noto Sans</family>
+      <pointsize>20</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="text">
+     <string>Supers</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Comptes">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>231</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Noto Sans</family>
+      <pointsize>20</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>Comptes bancaris, tresoreria</string>
+    </property>
+    <property name="text">
+     <string>Comptes</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Metges">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>270</y>
+      <width>231</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Noto Sans</family>
+      <pointsize>20</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>Metges</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>1210</x>
+      <y>27</y>
+      <width>691</width>
+      <height>771</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Diners</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_general">
+         <property name="text">
+          <string>General</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QTableWidget" name="tableWidget">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <attribute name="horizontalHeaderMinimumSectionSize">
+          <number>59</number>
+         </attribute>
+         <attribute name="horizontalHeaderHighlightSections">
+          <bool>true</bool>
+         </attribute>
+         <attribute name="horizontalHeaderStretchLastSection">
+          <bool>false</bool>
+         </attribute>
+         <attribute name="verticalHeaderStretchLastSection">
+          <bool>false</bool>
+         </attribute>
+         <row>
+          <property name="text">
+           <string>1</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>2</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>3</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>4</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>Banc</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>Import</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>La Caixa</string>
+          </property>
+          <property name="flags">
+           <set>ItemIsSelectable|ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string>10 €</string>
+          </property>
+         </item>
+         <item row="1" column="0">
+          <property name="text">
+           <string>Caixa Enginyers</string>
+          </property>
+         </item>
+         <item row="1" column="1">
+          <property name="text">
+           <string>10 €</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>Metàl·lic</string>
+          </property>
+         </item>
+         <item row="2" column="1">
+          <property name="text">
+           <string>10 €</string>
+          </property>
+         </item>
+         <item row="3" column="0">
+          <property name="text">
+           <string>Pedra</string>
+          </property>
+         </item>
+         <item row="3" column="1">
+          <property name="text">
+           <string>0 €</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_despesesMensuals">
+         <property name="text">
+          <string>Despeses mensuals</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QTreeView" name="treeView"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="Calendari">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>10</y>
+      <width>64</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Calendari</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>390</y>
+      <width>231</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Noto Sans</family>
+      <pointsize>20</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>510</y>
+      <width>231</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Noto Sans</family>
+      <pointsize>20</pointsize>
+      <italic>false</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMen">
+    <property name="title">
+     <string>Menú</string>
+    </property>
+    <widget class="QMenu" name="menuInserir">
+     <property name="title">
+      <string>Inserir</string>
+     </property>
+     <addaction name="actionBanc"/>
+     <addaction name="actionBeneficiari"/>
+     <addaction name="separator"/>
+     <addaction name="actionCategoria"/>
+    </widget>
+    <addaction name="menuInserir"/>
+    <addaction name="actionConsulta"/>
+    <addaction name="separator"/>
+    <addaction name="actionSortir"/>
+   </widget>
+   <widget class="QMenu" name="menuAbout">
+    <property name="title">
+     <string>Sobre</string>
+    </property>
+    <addaction name="actionAbout_programa"/>
+    <addaction name="actionSobre_icones"/>
+    <addaction name="separator"/>
+    <addaction name="actionSobre_Qt"/>
+   </widget>
+   <addaction name="menuMen"/>
+   <addaction name="menuAbout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionConsulta">
+   <property name="text">
+    <string>Consulta</string>
+   </property>
+  </action>
+  <action name="actionSortir">
+   <property name="text">
+    <string>Sortir</string>
+   </property>
+  </action>
+  <action name="actionAbout_programa">
+   <property name="text">
+    <string>Sobre </string>
+   </property>
+  </action>
+  <action name="actionBanc">
+   <property name="text">
+    <string>Banc</string>
+   </property>
+  </action>
+  <action name="actionBeneficiari">
+   <property name="text">
+    <string>Beneficiaris</string>
+   </property>
+  </action>
+  <action name="actionCategoria">
+   <property name="text">
+    <string>Categoria</string>
+   </property>
+  </action>
+  <action name="actionSobre_icones">
+   <property name="text">
+    <string>Sobre icones</string>
+   </property>
+  </action>
+  <action name="actionSobre_Qt">
+   <property name="text">
+    <string>Sobre Qt</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>pushButton_Comptes</tabstop>
+  <tabstop>pushButton_Operacions</tabstop>
+  <tabstop>tableWidget</tabstop>
+  <tabstop>treeView</tabstop>
+  <tabstop>pushButton_4</tabstop>
+  <tabstop>pushButton_5</tabstop>
+  <tabstop>pushButton_Metges</tabstop>
+ </tabstops>
+ <resources>
+  <include location="rsc.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>actionSortir</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>299</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialog_selecciooperacions</class>
+ <widget class="QMainWindow" name="dialog_selecciooperacions">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1580</width>
+    <height>772</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>402</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0" colspan="3">
+      <widget class="QCalendarWidget" name="calendarWidget"/>
+     </item>
+     <item row="1" column="0" colspan="3">
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>400</width>
+         <height>5</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Dia</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Fixed</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>5</width>
+         <height>10</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="label_6">
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid red;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget_Productes">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>100</y>
+      <width>891</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::AnyKeyPressed|QAbstractItemView::DoubleClicked|QAbstractItemView::EditKeyPressed</set>
+    </property>
+    <property name="sortingEnabled">
+     <bool>false</bool>
+    </property>
+    <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+     <bool>false</bool>
+    </attribute>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget_LlistaCompra">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>100</y>
+      <width>361</width>
+      <height>271</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_crearTiquet">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>550</y>
+      <width>361</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="text">
+     <string>Crear tiquet</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>20</y>
+      <width>161</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Mostrar ofertes</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>10</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="0" column="2">
+      <widget class="QCheckBox" name="checkBox_Ofertes">
+       <property name="text">
+        <string>Sí</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>20</y>
+      <width>351</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>Comerç</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="comboBox">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>86</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>70</y>
+      <width>131</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Llista compra</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>70</y>
+      <width>871</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Producte</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>358</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item row="0" column="2">
+      <widget class="QCheckBox" name="checkBox_edicioPreu">
+       <property name="text">
+        <string>Clicar per poder actualitzar el preu</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>390</y>
+      <width>361</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Operacions</string>
+    </property>
+    <widget class="QPushButton" name="pushButton_eliminaProducte">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>40</y>
+       <width>341</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Elimina producte de la llista</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_descomptes">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>100</y>
+       <width>171</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Descomptes 2ª unitat?</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_descomptes">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>100</y>
+       <width>161</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>400</y>
+      <width>231</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>BOTO_PROVES</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1580</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuComercos">
+    <property name="title">
+     <string>Comerços</string>
+    </property>
+    <addaction name="actionConsulta_Comercos"/>
+    <addaction name="actionInserir_Comercos"/>
+   </widget>
+   <widget class="QMenu" name="menuProductes">
+    <property name="title">
+     <string>Productes</string>
+    </property>
+    <widget class="QMenu" name="menuInserir">
+     <property name="title">
+      <string>Inserir</string>
+     </property>
+     <addaction name="actionProducte_general"/>
+     <addaction name="separator"/>
+     <addaction name="actionFamilia_producte"/>
+     <addaction name="separator"/>
+     <addaction name="actionTipus_ofertes"/>
+    </widget>
+    <widget class="QMenu" name="menuModificar">
+     <property name="title">
+      <string>Modificar</string>
+     </property>
+     <addaction name="actionDescripcio"/>
+    </widget>
+    <addaction name="actionConsulta_Productes"/>
+    <addaction name="menuInserir"/>
+    <addaction name="menuModificar"/>
+   </widget>
+   <addaction name="menuComercos"/>
+   <addaction name="menuProductes"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionConsulta_Comercos">
+   <property name="text">
+    <string>Consulta</string>
+   </property>
+  </action>
+  <action name="actionInserir_Comercos">
+   <property name="text">
+    <string>Inserir</string>
+   </property>
+  </action>
+  <action name="actionProducte_general">
+   <property name="text">
+    <string>Producte general</string>
+   </property>
+  </action>
+  <action name="actionFamilia_producte">
+   <property name="text">
+    <string>Familia producte</string>
+   </property>
+  </action>
+  <action name="actionEAN">
+   <property name="text">
+    <string>EAN</string>
+   </property>
+  </action>
+  <action name="actionDescripcio">
+   <property name="text">
+    <string>Descripció</string>
+   </property>
+  </action>
+  <action name="actionPVP">
+   <property name="text">
+    <string>PVP</string>
+   </property>
+  </action>
+  <action name="actionConsulta_Productes">
+   <property name="text">
+    <string>Consulta</string>
+   </property>
+  </action>
+  <action name="actionTipus_ofertes">
+   <property name="text">
+    <string>Tipus ofertes</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
