@@ -4,8 +4,8 @@ Status: Actualment abandonat per desenvolupar un basat en web *[Mercats ERP](htt
 
 ## Imatges idea original
 
-Pantalla principal
-[[img/principal.png]]
+Pantalla principal  
+<img src="img/principal.png">
 
-Pantalla creació tiquets
-[[img/tiquets.png]]
+Pantalla creació tiquets  
+<img src="img/tiquets.png">
